@@ -363,58 +363,6 @@ html:hover {
     grid-template-rows: repeat(4,auto);
   }
 }
-/* =============== CONTACT =============== */
-.contact{
-  position: relative;
-}
-.contact-wrapper{
-  padding-block: 84px;
-}
-.contact-headline{
-  margin-block-end: 1.25rem;
-}
-.contact-control{
-  position: relative;
-  margin-block-end: 16px;
-}
-.contact-control input,
-.contact-control textarea{
-  width: 100%;
-  padding-block: 16px;
-  padding-inline: 24px;
-  border: none;
-  border-bottom: 1px solid var(--text1);
-  background: transparent;
-  font-size: 1rem;
-  line-height: 1.5;
-  color: var(--text1);
-}
-.contact-control >*::placeholder{
-  text-transform: uppercase;
-}
-
-.contact-control textarea{
-  margin-block-end: 32px;
-}
-.contact-control.align-right{
-  display: flex;
-  justify-content: flex-end;
-}
-.contact-control button{
-  background-color: transparent;
-  border: none;
-}
-/* ======= BREAKPOINTS ======= */
-@media(min-width:62.5em){
-  .contact-wrapper{
-    display: grid;
-    grid-template-columns: repeat(2, 27.8rem);
-    justify-content: space-between;
-  }
-  .contact-headline{
-    margin-block-end: 2.25rem;
-  }
-}
 /* =============== FOOTER =============== */
 footer{
   padding-block: 40px 60px;
